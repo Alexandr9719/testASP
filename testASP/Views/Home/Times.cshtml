@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Times";
+}
+
+<h2>Times</h2>
+<div id="time"></div>
+<script type="text/javascript">
+    var el = document.querySelector("#time");
+    var now = new Date();    
+    setInterval(function () { now = new Date(); el.innerHTML = now.toString(); }, 1000);
+</script>

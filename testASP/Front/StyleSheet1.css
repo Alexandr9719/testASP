@@ -1,0 +1,39 @@
+﻿	#top
+	{
+		margin:30px 20px;
+		width:10em;
+		height:10em; 
+		border:#000000 solid 2px;
+        -moz-border-radius:5em;
+        -webkit-border-radius:5em; 
+        border-radius:5em; 
+        background-color: grey;
+	}
+	#mid
+	{
+		margin:30px 20px;
+		width:10em;
+		height:10em; 
+		border:#000000 solid 2px;
+        -moz-border-radius:5em;
+        -webkit-border-radius:5em; 
+        border-radius:5em; 
+        background-color: grey;
+	}
+	#bot
+	{
+		margin:30px 20px;
+		width:10em;
+		height:10em; 
+		border:#000000 solid 2px;
+        -moz-border-radius:5em;
+        -webkit-border-radius:5em; 
+        border-radius:5em; 
+        background-color: grey;
+	}
+	#traffic
+	{
+		margin: auto;
+		width: 200px;
+		border:solid;
+	}

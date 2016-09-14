@@ -1,0 +1,25 @@
+﻿@using Domain.Entities
+@model IEnumerable<User>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DataBase</title>
+</head>
+<body>
+    <div> 
+        <ul>
+            @foreach (User item in Model)
+            {
+                <li>ID - @item.Id, Name - @item.Name, Group - @item.groupName</li>
+            }
+        </ul>
+    </div>
+</body>
+</html>
